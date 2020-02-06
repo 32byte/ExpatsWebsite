@@ -1,0 +1,25 @@
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  border: 1px;
+  border-color: black;
+  border-left: 2px black;
+}
+
+.nav-link {
+  display: block;
+  padding: 8px;
+  color: #000000;
+  margin: 0;
+  text-decoration: none;
+  border: 1px;
+  border-color: black;
+}
