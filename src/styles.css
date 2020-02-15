@@ -1,5 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
 @import "../node_modules/ng2-slim-loading-bar/style.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 * {
   margin: 0;
