@@ -26,3 +26,9 @@
   width: 100%;
   height: 36px;
 }
+
+.background {
+  height: 100vh;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperplay.com%2Fwalls%2Ffull%2F1%2Fd%2F1%2F78867.jpg&f=1&nofb=1");
+  background-attachment: fixed;
+}
