@@ -1,11 +1,17 @@
 .content {
-    background-color: rgba(0, 0, 0, .2);
-    height: 100vh - 36px;
-    width: 80vw;
-    margin: auto;
-    background-attachment: fixed;
+  background-color: rgba(0, 0, 0, .2);
+  height: 100vh - 36px;
+  width: 90vw;
+  margin: auto;
+  background-attachment: fixed;
+  text-align: center;
 }
 
 .text {
-    text-align: center;
+  width: 80vw;
+  text-align: center;
+  font-family: 'Nunito Sans';
+  margin-left: 5vw;
+  font-size: 2vh;
+  color: #eeeeee;
 }
