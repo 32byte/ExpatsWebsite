@@ -1,5 +1,5 @@
 .content {
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, .25);
   height: 100vh - 36px;
   width: 90vw;
   margin: auto;
@@ -8,10 +8,10 @@
 }
 
 .text {
-  width: 80vw;
+  width: 85vw;
   text-align: center;
   font-family: 'Nunito Sans';
-  margin-left: 5vw;
-  font-size: 2vh;
-  color: #eeeeee;
+  margin-left: 2.5vw;
+  font-size: calc(16px + .6vh);
+  color: #dddddd;
 }
