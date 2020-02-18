@@ -21,6 +21,7 @@
   text-decoration: none;
   font-family: Roboto;
   font-size: 28px;
+  height: 46px;
 }
 
 .navbar {
@@ -51,9 +52,4 @@
 
 .container {
   padding-top: 56px;
-}
-
-a[ id="test" ]:target {
-  -webkit-transform: translateY(100px);
-  transform: translateY(100px);
 }
