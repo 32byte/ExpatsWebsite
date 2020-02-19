@@ -49,9 +49,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  width: 15px;
-  height: 1px;
-  border-radius: 10px;
-  background: linear-gradient(to top, #fcb045, #fd1d1d, #833ab4);
+  width: 1px;
+  height: 12px;
+  background: #dddddd;
+  z-index: 10000;
 }

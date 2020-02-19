@@ -6,12 +6,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   constructor() {
+    /* ToDo: calculate the width w/ the anchors */
     $(window).scroll(function() {
       var scroll = $(window).scrollTop(),
           dh = $(document).height(),
           h = $(window).height(),
           scrollPercent = (scroll / (dh - h)) * 100;
-      $("#progressbar").css('height', scrollPercent + '%');
+      $('#progressbar').css('width', scrollPercent + '%');
       this.console.log(dh);
       this.console.log(scroll);
     });
