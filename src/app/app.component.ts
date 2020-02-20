@@ -16,7 +16,7 @@ export class AppComponent {
 
       var index = 0;
       $('section').each(function (i) {
-        if(scroll >= $('section').eq(i).position().top - 56)
+        if(scroll >= $('section').eq(i).position().top - 56 * (index + 1))
           index = i;
       });
 
@@ -34,7 +34,7 @@ export class AppComponent {
 
       var index = 0;
       $('section').each(function (i) {
-        if(scroll >= $('section').eq(i).position().top - 56 * index)
+        if(scroll >= $('section').eq(i).position().top - 56 * (index + 1))
           index = i;
       });
 

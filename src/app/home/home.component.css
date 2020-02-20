@@ -19,6 +19,7 @@
 h1 {
   color: #dddddd;
   font-size: calc(18px + 2vh);
+  font-family: 'Roboto';
 }
 
 span {
