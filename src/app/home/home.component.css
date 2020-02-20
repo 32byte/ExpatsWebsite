@@ -16,10 +16,12 @@
   color: #dddddd;
 }
 
-.anchor {
+h1 {
   color: #dddddd;
+  font-size: calc(18px + 2vh);
 }
-.anchor span {
+
+span {
   position: relative; 
-  top:-56px;
+  top: -56px;
 }
