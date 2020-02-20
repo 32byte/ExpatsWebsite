@@ -20,5 +20,6 @@
   color: #dddddd;
 }
 .anchor span {
-  position:absolute; top:-56px;
+  position: relative; 
+  top:-56px;
 }
