@@ -1,3 +1,13 @@
+#progressbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 8px;
+  background: #5c5c5c;
+  z-index: 10000;
+}
+
 .navbar {
   background: rgb(28, 28, 28);
   width: 100%;
@@ -53,12 +63,21 @@
   z-index: 9999;
 }
 
-#progressbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 1px;
-  height: 8px;
-  background: #5c5c5c;
-  z-index: 10000;
+.footer {
+  height: 60px;
+  background-color: rgb(28, 28, 28);
+}
+
+.footer p {
+  color: #cccccc;
+  font-family: 'Roboto';
+  font-size: 16px;
+
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer p a {
+  color: #ffffff;
+  text-decoration: none;
 }
