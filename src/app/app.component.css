@@ -66,18 +66,34 @@
 .footer {
   height: 60px;
   background-color: rgb(28, 28, 28);
+
+  display: flex;
 }
 
-.footer p {
+.footer p#built {
   color: #cccccc;
   font-family: 'Roboto';
   font-size: 16px;
-
-  text-align: center;
+  
+  flex: 1;
+  text-align: left;
   padding-top: 20px;
+  margin-left: 16px;
 }
 
 .footer p a {
-  color: #ffffff;
+  color: #efefef;
   text-decoration: none;
+}
+
+.footer p#source {
+  
+  color: #cccccc;
+  font-family: 'Roboto';
+  font-size: 16px;
+  
+  flex: 1;
+  text-align: right;
+  padding-top: 20px;
+  margin-right: 16px;
 }
