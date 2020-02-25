@@ -9,13 +9,10 @@
 
 .sources {
     position: relative;
-    top: 10vh;
     left: 15vw;
     width: 60vw;
-
-    background-color: rgba(0, 0, 0, .25);
+    height: auto;
     text-align: center;
-    padding-bottom: 12px;
 }
 
 li {

@@ -70,8 +70,6 @@
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
   width: 100vw;
   height: 60px;
   background-color: rgb(28, 28, 28);
@@ -96,7 +94,6 @@
 }
 
 .footer p#source {
-  
   color: #cccccc;
   font-family: 'Roboto';
   font-size: 16px;
