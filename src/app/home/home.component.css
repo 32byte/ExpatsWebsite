@@ -9,11 +9,19 @@
 
 .text {
   width: 85vw;
-  text-align: center;
+  text-align: left;
   font-family: 'Nunito Sans';
   margin-left: 2.5vw;
   font-size: calc(16px + .6vh);
   color: #dddddd;
+}
+
+.subtitle {
+  color: #cccccc;
+  font-size: calc(14px + 1.8vh);
+  font-family: 'Roboto';
+  text-align: left;
+  margin-left: 2.5vw;
 }
 
 h1 {

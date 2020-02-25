@@ -13,35 +13,41 @@
   width: 100%;
   height: 56px;
   position: fixed;
+  vertical-align: middle;
+  z-index: 99999;
 }
 
 .navbar-nav { 
   list-style-type: none; 
-  align-items: center;
 }
 
 .nav-item { 
   float: left; 
-  width: 33vw;
-
-  text-align: center;
-  font-size: 27px;
+  display: flex;
+  
+  width: calc(1 / 7 * 100vw);
+  height: 53px;
+  
+  font-size: calc(9px + .5vw);
   font-family: Roboto;
+  vertical-align: middle;
+  list-style-position: inside;
 }
 
 .nav-item a {
+  margin: auto;
   display: block;
   outline: none;
+  
   text-decoration: none;
-
-  padding-top: 9px;
-  height: 46px;
+  text-align: center;
 
   color: #dddddd;
 }
 
 .active {
-  font-size: 35px;
+  border-radius: 2px;
+  border-bottom: 3px solid white;
 }
 
 .background-image {
@@ -64,6 +70,9 @@
 }
 
 .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
   height: 60px;
   background-color: rgb(28, 28, 28);
 

@@ -14,11 +14,13 @@ export class AppComponent {
           scrollPercent = (scroll / (dh - h)) * 100;
       $('#progressbar').css('width', scrollPercent + '%');
 
-      var index = 0;
+      var index = -1;
       $('section').each(function (i) {
-        if(scroll >= $('section').eq(i).position().top - 64)
+        if(scroll < $('section').eq(i).position().top && index == -1) 
           index = i;
       });
+
+      if(scroll > dh - h - 5) index = $('section').length - 1;
 
       $('.active').removeClass();
       $('.nav-item a').eq(index).addClass('active');
@@ -32,14 +34,16 @@ export class AppComponent {
           scrollPercent = (scroll / (dh - h)) * 100;
       $('#progressbar').css('width', scrollPercent + '%');
 
-      var index = 0;
+      var index = -1;
       $('section').each(function (i) {
-        if(scroll >= $('section').eq(i).position().top - 64)
+        if(scroll < $('section').eq(i).position().top && index == -1) 
           index = i;
       });
 
-      $('.nav-item#active').removeAttr('id');
-      $('.nav-item').eq(index).attr('id', 'active');
+      if(scroll > dh - h - 5) index = $('section').length - 1;
+
+      $('.active').removeClass();
+      $('.nav-item a').eq(index).addClass('active');
     });
   }
 }

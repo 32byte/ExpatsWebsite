@@ -1,9 +1,10 @@
 .content {
     background-color: rgba(0, 0, 0, .25);
-    height: calc(100vh - 116px);
+    min-height: calc(100vh - 116px);
     width: 90vw;
     margin: auto;
     background-attachment: fixed;
+    overflow-wrap: break-word;
 }
 
 .sources {
@@ -14,13 +15,16 @@
 
     background-color: rgba(0, 0, 0, .25);
     text-align: center;
+    padding-bottom: 12px;
 }
 
-.sources p {
+li {
+    position: relative;
+    left: 36px;
+    width: calc(60vw - 52px);
     text-align: left;
     font-family: 'Nunito Sans';
-    margin-left: 2.5vw;
-    font-size: calc(12px + .6vh);
+    font-size: calc(12px + .8vh);
     color: #dddddd;
 }
 
