@@ -5,7 +5,7 @@
   width: 1px;
   height: 8px;
   background: #5c5c5c;
-  z-index: 10000;
+  z-index: 100000;
 }
 
 .navbar {
