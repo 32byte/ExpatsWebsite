@@ -21,7 +21,7 @@
     "@angular/router": "~8.2.14",
     "@types/jquery": "^3.3.32",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ng2-slim-loading-bar": "^4.0.0",
     "rxjs": "~6.4.0",
     "rxjs-compat": "^6.5.4",
